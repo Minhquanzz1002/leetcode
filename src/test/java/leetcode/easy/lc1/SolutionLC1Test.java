@@ -1,13 +1,13 @@
-package leetcode.easy.twosum;
+package leetcode.easy.lc1;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-public class TwoSumTest {
+public class SolutionLC1Test {
 
     @Test
     void testTwoSum1() {
-        TwoSum solution = new TwoSum();
+        SolutionLC1 solution = new SolutionLC1();
         int[] nums = new int[]{2, 7, 11, 15};
         int[] result = solution.twoSum(nums, 9);
 
@@ -16,7 +16,7 @@ public class TwoSumTest {
 
     @Test
     void testTwoSum2() {
-        TwoSum solution = new TwoSum();
+        SolutionLC1 solution = new SolutionLC1();
         int[] nums = new int[]{3, 2, 4};
         int[] result = solution.twoSum(nums, 6);
 
@@ -25,7 +25,7 @@ public class TwoSumTest {
 
     @Test
     void testTwoSum3() {
-        TwoSum solution = new TwoSum();
+        SolutionLC1 solution = new SolutionLC1();
         int[] nums = new int[]{3, 3};
         int[] result = solution.twoSum(nums, 6);
 

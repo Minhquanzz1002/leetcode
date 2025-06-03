@@ -1,9 +1,9 @@
-package leetcode.easy.twosum;
+package leetcode.easy.lc1;
 
 import java.util.HashMap;
 import java.util.Map;
 
-public class TwoSum {
+public class SolutionLC1 {
     public int[] twoSum(int[] nums, int target) {
         Map<Integer, Integer> map = new HashMap<>();
         for (int i = 0; i < nums.length; i++) {

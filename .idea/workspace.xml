@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22a7b8f0-92c6-4b20-ae9e-424b2563a977" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/easy/twosum/TwoSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/easy/twosum/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/easy/lc1/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/easy/twosum/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/easy/lc1/SolutionLC1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/easy/twosum/TwoSumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/easy/lc1/SolutionLC1Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +42,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
+    "JUnit.SolutionLC2Test.executor": "Run",
     "JUnit.TwoSumTest.executor": "Run",
     "Maven.leet-code [org.apache.maven.plugins:maven-surefire-report-plugin:3.0.0:report].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -52,7 +51,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.TwoSumTest">
+  <component name="RunManager" selected="JUnit.SolutionLC2Test">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="core.Main" />
       <module name="leet-code" />
@@ -66,16 +65,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoSumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SolutionLC2Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leet-code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.easy.twosum.*" />
+          <option name="PATTERN" value="leetcode.med.lc2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="leetcode.easy.twosum" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.easy.twosum.TwoSumTest" />
+      <option name="PACKAGE_NAME" value="leetcode.med.lc2" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.med.lc2.SolutionLC2Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SolutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leet-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.easy.lc1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="leetcode.easy.lc1" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.easy.lc1.SolutionTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -83,7 +97,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TwoSumTest" />
+        <item itemvalue="JUnit.SolutionLC2Test" />
+        <item itemvalue="JUnit.SolutionTest" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
