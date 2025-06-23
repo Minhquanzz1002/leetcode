@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22a7b8f0-92c6-4b20-ae9e-424b2563a977" name="Changes" comment="" />
+    <list default="true" id="22a7b8f0-92c6-4b20-ae9e-424b2563a977" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,6 +40,7 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "JUnit.SolutionLC2Test.executor": "Run",
+    "JUnit.SolutionLC9Test.executor": "Run",
     "JUnit.TwoSumTest.executor": "Run",
     "Maven.leet-code [org.apache.maven.plugins:maven-surefire-report-plugin:3.0.0:report].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -48,7 +51,7 @@
     "last_opened_file_path": "D:/Code/Java/leet-code"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.SolutionLC2Test">
+  <component name="RunManager" selected="JUnit.SolutionLC9Test">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="core.Main" />
       <module name="leet-code" />
@@ -77,6 +80,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SolutionLC9Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leet-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.easy.lc9.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="leetcode.easy.lc9" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.easy.lc9.SolutionLC9Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SolutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leet-code" />
       <extension name="coverage">
@@ -94,6 +112,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SolutionLC9Test" />
         <item itemvalue="JUnit.SolutionLC2Test" />
         <item itemvalue="JUnit.SolutionTest" />
         <item itemvalue="Application.Main" />
